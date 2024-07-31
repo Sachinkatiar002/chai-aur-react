@@ -6,10 +6,11 @@ function App() {
   return (
     <>
       <CardWrapper>
-        <div>
-           hi there 
-        </div>
+
+        <TextComponent/>
+
       </CardWrapper>
+      
       <CardWrapper> 
         <div>
           hi there 2 
@@ -34,6 +35,13 @@ function CardWrapper ({ children }) {
     
     </div>
  
+}
+
+
+function TextComponent() {
+  return <div>
+  hi from TextComponent
+  </div>
 }
 
 // // child 1
