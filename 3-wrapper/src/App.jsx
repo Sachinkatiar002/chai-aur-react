@@ -5,8 +5,16 @@ function App() {
 
   return (
     <>
-      <CardWrapper> hi there </CardWrapper>
-      <CardWrapper> hi there 2</CardWrapper>
+      <CardWrapper>
+        <div>
+           hi there 
+        </div>
+      </CardWrapper>
+      <CardWrapper> 
+        <div>
+          hi there 2 
+        </div>
+      </CardWrapper>
      
       
     </>
@@ -20,7 +28,7 @@ function CardWrapper ({ children }) {
   return  <div style={{
       border: "2px solid black",
       padding: "10px"
-     }} > 
+     }}> 
     
     {children}
     
